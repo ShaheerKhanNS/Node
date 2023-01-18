@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact US</title>
+    <link rel="stylesheet" href="/css/contact.css" />
   </head>
   <body>
-    <form action="/sucess" method="get">
-      <label for="name">Name</label>
-      <input type="text" id="name" required />
-      <label for="email">Email</label>
-      <input type="email" id="email" required />
-      <button type="submit">Get a Mail</button>
-    </form>
+    <div class="form-style-6">
+      <h1>Contact Us</h1>
+      <form action="/sucess" method="get">
+        <input type="text" name="field1" placeholder="Your Name" />
+        <input type="email" name="field2" placeholder="Email Address" />
+
+        <input type="submit" value="Send" />
+      </form>
+    </div>
   </body>
 </html>
